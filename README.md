@@ -32,11 +32,6 @@ On a Windows system:
 2. Run the executable file:  
    `bus-automation.exe`
 
-## Future Enhancements
-- Add support for multiple bus models and layouts.
-- Develop a user-friendly graphical interface.
-- Save reservations to a file for persistence and future reference.
-
 ## Contributing
 We welcome contributions! Feel free to open a pull request or create an issue for suggestions or bug reports.
 
