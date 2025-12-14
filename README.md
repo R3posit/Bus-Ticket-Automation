@@ -1,38 +1,13 @@
-# Syncrof Bus Reservation System
+Project Status: 🏛️ Archived / Legacy Code
 
-This project is a bus reservation system simulation written in C. It collects user information and allows seat selection based on availability and gender compatibility rules.
+Description: This is my very first semester project written in C++. It simulates a Bus Reservation System widely used in Turkey (intercity bus travel).
 
-## Features
-- Collects student ID, name-surname, and gender information from the user.
-- Seat selection is restricted based on availability and gender compatibility.
-- Dynamically displays available seats to the user.
-- Provides interactive seat selection functionality.
-- Includes animations for loading screens and welcome messages.
+Key Features Implemented (Low-Level Logic):
 
-## Technologies Used
-- **C Programming Language**: Core logic implementation.
-- **Windows.h Library**: For console interface and functions like `Sleep`.
-- **locale.h Library**: To support Turkish characters.
-- **conio.h and stdlib.h**: For console control and system commands.
+Seat Layout Algorithm: Manually calculating seat positions (Window/Aisle) using mathematical loops (mod 2, +4 increments) instead of using objects.
 
-## Usage
-1. Download and compile the project.
-2. Run the application and input your answers.
-3. View the current seat layout and select your preferred seat.
-4. The application will display a confirmation message upon successful reservation.
+Business Rules: Implementation of gender-based seating restrictions (a unique cultural rule where unrelated opposite genders cannot sit side-by-side).
 
-## Limitations
-- Gender mismatch may prevent certain adjacent seat selections.
-- The project is console-based and does not include a graphical user interface.
+Console UI: Custom "Loading" animations and menu navigation using windows.h.
 
-## How to Compile and Run
-On a Windows system:
-1. Use a C compiler (e.g., GCC) to compile the program:  
-   `gcc -o travel travel.c`
-2. Run the executable file:  
-   `bus-automation.exe`
-
-## Contributing
-We welcome contributions! Feel free to open a pull request or create an issue for suggestions or bug reports.
-
----
+Retrospective: Looking back at this code as a Backend Engineer, I see huge room for improvement (OOP, Vector usage, separation of concerns). However, I keep this repository public to demonstrate my algorithmic thinking roots and how I handled logic flow with raw C capabilities back in the day.
